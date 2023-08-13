@@ -39,6 +39,8 @@ Glue will crawl the S3 bucket and create a table within Athena based on the sche
 
 ## 6. SuperSet
 The visualizations outline the high-level revenue and expenses for the company and also shed light on potential stores that are being mismanaged.
+
+## 7. Dashboard
 ![image](https://github.com/umergh7/Walmart-Data-End-to-End-Pipeline/assets/117035545/83d13282-bfb3-4dcb-8d66-9f7c9c1d839e)
 
 
