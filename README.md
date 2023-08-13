@@ -31,3 +31,16 @@ The pyspark script will use various tables to create a fact table. The fact tabl
 * low Stock Instances: Calculate how many times of Low_Stock_Flg in a week
 * no Stock Instances: Calculate then how many times of out_of_Stock_Flg in a week
 * how many weeks the on hand stock can supply: (inventory_on_hand_qty at the end of the week) / sum(sales_qty)
+
+The fact table will be sent to another S3 output bucket as a parquet file along with additional dimension tables.
+
+## 5. AWS Glue & Athena
+Glue will crawl the S3 bucket and create a table within Athena based on the schema specified. Using a modified dockerfile, I'm able to configure Athena with Apache SuperSet.
+
+## 6. SuperSet
+The visualizations outline the high-level revenue and expenses for the company and also shed light on potential stores that are being mismanaged.
+![image](https://github.com/umergh7/Walmart-Data-End-to-End-Pipeline/assets/117035545/83d13282-bfb3-4dcb-8d66-9f7c9c1d839e)
+
+
+
+
