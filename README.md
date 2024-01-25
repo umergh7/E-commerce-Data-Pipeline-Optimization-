@@ -1,7 +1,5 @@
 # Walmart-Data-End-to-End-Pipeline
 
-The project aimed to create an end-to-end sales data pipeline and derive actionable insights through a BI tool, utilizing technologies like S3, Lambda, CloudWatch, Glue, Athena, Airflow, EMR, Docker, and SuperSet. The integrated pipeline transformed raw data into meaningful insights, enabling data-driven decision-making and facilitating business growth.
-
 ![image](https://github.com/umergh7/Walmart-Data-End-to-End-Pipeline/assets/117035545/2cea6f5a-3cc8-400f-bd9e-3d213e240522)
 
 In this case, we are simulating the data in Snowflake to act as an OLTP database. 
